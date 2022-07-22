@@ -11,6 +11,7 @@ Crianças em idade de alfabetização - 6 a 8 anos (que tinham idade de pré alf
 O jogo é voltado para ensinar as letras do alfabeto e seus fonemas, onde a criança deverá acertar qual a letra inicial do nome dos animais que aparecerem na tela, dessa forma elas poderão aprender brincando, de forma lúdica e divertida.
 
 # Wireframe
+PS: dentro do wireframe contém as telas,paletas e tipografia que se pretende usar:
 <a href="https://www.figma.com/file/VPeIdKIDIaNb8U8hwA0HjX/PROJETO-INTEGRADOR-GRUPO-1---literacy-educational-game?node-id=0%3A1">Link para wireframe v1 da sprint 1 no Figma</a>
 
 # Histórias em andamento
