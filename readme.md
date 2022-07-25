@@ -14,6 +14,9 @@ O jogo é voltado para ensinar as letras do alfabeto e seus fonemas, onde a cria
 PS: dentro do wireframe contém as telas,paletas e tipografia que se pretende usar:
 <a href="https://www.figma.com/file/VPeIdKIDIaNb8U8hwA0HjX/PROJETO-INTEGRADOR-GRUPO-1---literacy-educational-game?node-id=0%3A1">Link para wireframe v1 da sprint 1 no Figma</a>
 
+PS: dentro do wireframe contém as telas que existirão no jogo, já personalizadas:
+<a href= " https://www.figma.com/file/VPeIdKIDIaNb8U8hwA0HjX/PROJETO-INTEGRADOR-GRUPO-1---literacy-educational-game?node-id=87%3A80 "> Link para wireframe v2 da sprint no Figma </a>
+
 # Histórias em andamento
 - Eu como usuário quero selecionar um novo jogo;
 - Eu como usuário, caso eu já tenha um progresso salvo no jogo, quero ver uma mensagem dizendo que já tenho um jogo salvo e pedindo pra eu confirmar que estou selecioando um novo jogo e que o progresso salvo será perdido;
