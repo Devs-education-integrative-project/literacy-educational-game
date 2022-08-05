@@ -25,21 +25,21 @@ PS: dentro do wireframe contém todas as telas do jogo personalizadas:
 <a href="https://www.figma.com/file/VPeIdKIDIaNb8U8hwA0HjX/PROJETO-INTEGRADOR-GRUPO-1---literacy-educational-game?node-id=87%3A80">Link para wireframe v2 da sprint 2 no Figma</a>
 
 # Histórias do usuário
-•Eu como usuário quero ter a opção de começar um novo jogo e de continuar um jogo salvo.<br>
-•Eu como usuário quero ter a opção de colocar meu nome e minha idade na tela.<br>
-•Eu como usuário quero ter a opção de confirmar se desejo realmente iniciar um novo jogo.<br>
-•Eu como usuário quero ter a opção de assistir ou não o tutorial.<br>
-•Eu como usuário quero saber minha pontuação total.<br>
-•Eu como usuário quero receber uma mensagem de parabenização pelo meu desempenho independente do meu resultado.<br>
-•Eu como usuário quero receber uma mensagem motivacional pelo meu desempenho independente do meu resultado.<br>
-•Eu como usuário quero ouvir todas as mensagens.<br>
-•Eu como usuário quero voltar ao início do jogo.<br>
+- Eu como usuário quero ter a opção de começar um novo jogo e de continuar um jogo salvo.
+- Eu como usuário quero ter a opção de colocar meu nome e minha idade na tela.
+- Eu como usuário quero ter a opção de confirmar se desejo realmente iniciar um novo jogo.
+- Eu como usuário quero ter a opção de assistir ou não o tutorial.
+- Eu como usuário quero saber minha pontuação total.
+- Eu como usuário quero receber uma mensagem de parabenização pelo meu desempenho independente do meu resultado.
+- Eu como usuário quero receber uma mensagem motivacional pelo meu desempenho independente do meu resultado.
+- Eu como usuário quero ouvir todas as mensagens.
+- Eu como usuário quero voltar ao início do jogo.
 
 # Histórias do gerente
-•Eu como gerente quero que apareça uma pergunta na tela com a imagem referência.<br>
-•Eu como gerente quero que o usuário tenha 4 opções de respostas.<br>
-•Eu como gerente quero que uma dessas respostas seja verdadeira e as outras 3 falsas.<br>
-•Eu como gerente quero que mostre visualmente na tela quando for verdadeira e quando for falsa.<br>
-•Eu como gerente quero que saia o som das letras quando o usuário clicar nelas, para correlacionar som com escrita.<br>
-•Eu como gerente quero que o usuário vá para a próxima pergunta após marcar a resposta da atual.<br>
+- Eu como gerente quero que apareça uma pergunta na tela com a imagem referência.<br>
+- Eu como gerente quero que o usuário tenha 4 opções de respostas.<br>
+- Eu como gerente quero que uma dessas respostas seja verdadeira e as outras 3 falsas.<br>
+- Eu como gerente quero que mostre visualmente na tela quando for verdadeira e quando for falsa.<br>
+- Eu como gerente quero que saia o som das letras quando o usuário clicar nelas, para correlacionar som com escrita.<br>
+- Eu como gerente quero que o usuário vá para a próxima pergunta após marcar a resposta da atual.<br>
 
