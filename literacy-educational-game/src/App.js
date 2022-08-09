@@ -1,16 +1,12 @@
+
 import './App.css';
-import Button from './components/Buttons/index';
+import ButtonsStartGame from './components/Buttons/BtnsStartGame';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Devs Education</h1>
-criar-botões-para-iniciar-jogo
-      
-      <Button/>
-
-      <h2>Teste</h2>
-develop
+      <h1>img qual é a letra</h1>
+      <ButtonsStartGame/>
     </div>
   );
 }
