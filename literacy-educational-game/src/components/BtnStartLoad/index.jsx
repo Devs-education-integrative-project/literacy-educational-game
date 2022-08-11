@@ -1,10 +1,10 @@
-import './BtnsStartGame.css'
+import './index.css'
 
 const ButtonsStartGame = () => {
   return (
-    <div className="btns__Start-game">
+    <div className="btn-groups">
       <button className="btn-new-game">Novo jogo</button>
-      <button className="btn-continue-game">continuar</button>
+      <button className="btn-continue-game">Continuar</button>
     </div>
   );
 }

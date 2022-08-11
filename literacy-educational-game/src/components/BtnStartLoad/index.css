@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.btns__Start-game {
+.btn-groups {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -15,8 +15,8 @@
   all: unset;
   box-sizing: border-box;
 
-  width: 204px;
-  height: 51px;
+  width: 20rem;
+  height: 4rem;
 
   background: #f7f7f7;
   border: 1px solid #dedede;
@@ -28,9 +28,11 @@
 font-family: 'Chubby Cheeks';
 font-style: normal;
 font-weight: 400;
-font-size: 12px;
+font-size: 2rem;
 line-height: 15px;
 text-align: center;
+
+text-transform: uppercase;
 
 color: #2E2E2E;
 }
