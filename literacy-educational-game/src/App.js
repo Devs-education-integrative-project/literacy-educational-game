@@ -1,10 +1,10 @@
 import './App.css';
-import BackgroundGame from './Components/ViewBackground';
+import BackgroundContent from './Components/BackgroundContentGame';
 
 const App = () => {
   return (
     <div className="App">
-      <BackgroundGame/>
+      <BackgroundContent/>
     </div>
   );
 }
