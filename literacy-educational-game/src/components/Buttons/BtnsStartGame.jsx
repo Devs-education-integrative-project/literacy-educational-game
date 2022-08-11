@@ -1,12 +1,11 @@
 import './BtnsStartGame.css'
 
-const ButtonsStartGame = () => {
+const Button = ({ children }) => {
   return (
     <div className="btns__Start-game">
-      <button className="btn-new-game">Novo jogo</button>
-      <button className="btn-continue-game">continuar</button>
+      <button className="btn-new-game">{children}</button>
     </div>
   );
 }
 
-export default ButtonsStartGame;
+export default Button;
