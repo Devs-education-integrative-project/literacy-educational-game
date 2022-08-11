@@ -1,8 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 .btns__Start-game {
   width: 100vw;
   display: flex;
@@ -10,6 +11,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .btn-new-game,
 .btn-continue-game {
   all: unset;
@@ -25,12 +27,13 @@
 
   margin-top: 1rem;
 
-font-family: 'Chubby Cheeks';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 15px;
-text-align: center;
+  font-family: 'Chubby Cheeks';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
 
-color: #2E2E2E;
+  color: #2E2E2E;
+  cursor: pointer;
 }
