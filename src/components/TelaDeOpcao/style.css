@@ -6,7 +6,6 @@
   background-color: #175496;
   flex-wrap: wrap;
   border-radius: 10px;
-
 }
 
 .iniciar-jogo p {
@@ -14,6 +13,7 @@
   font-size: 32px;
   margin-top: 30px;
   width: 447px;
+  text-align: center;
 }
 
 .iniciar-jogo__btn {
