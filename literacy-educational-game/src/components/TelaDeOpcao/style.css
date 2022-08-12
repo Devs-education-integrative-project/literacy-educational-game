@@ -1,0 +1,29 @@
+.iniciar-jogo {
+  width: 603px;
+  height: 604px;
+  display: flex;
+  justify-content: center;
+  background-color: #175496;
+  flex-wrap: wrap;
+  border-radius: 10px;
+
+}
+
+.iniciar-jogo p {
+  color: #F7F7F7;
+  font-size: 32px;
+  margin-top: 30px;
+  width: 447px;
+}
+
+.iniciar-jogo__btn {
+  display: flex;
+  width: 100%;
+  font-weight: 400;
+}
+
+.iniciar-jogo__btn button {
+  padding: 2.1rem;
+  font-size: 32px;
+  font-weight: 700;
+}
