@@ -10,7 +10,13 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <TelaJogar />
+      {/* <TelaJogar /> */}
+      {/* <ModalAcerto/> */}
+      {/* <ModalErro/> */}
+      {/* <TelaDeOpcao/> */}
+      <Button>Novo jogo</Button>
+      <Button>Continuar</Button>
+
     </div>
   );
 }
