@@ -1,29 +1,33 @@
-.jogar{
+@import url('../../styleGlobal.css');
+
+.jogar {
   width: 603px;
-  height: 604px;
+  height: 500px;
   display: flex;
   justify-content: center;
-  background-color: #175496;
+  align-items: center;
+  background-color: #FFAC33;
   flex-wrap: wrap;
   border-radius: 10px;
-
 }
 
 .jogar p {
-  color: #F7F7F7;
-  font-size: 32px;
+  color: #312403;
+  font-size: 36px;
   margin-top: 30px;
   width: 447px;
+  text-align: center;
 }
 
-.iniciar-jogo__btn {
+.jogar-jogo__btn {
   display: flex;
   width: 100%;
   font-weight: 400;
 }
 
-.iniciar-jogo__btn button {
+.jogar-jogo__btn button {
   padding: 2.1rem;
   font-size: 32px;
   font-weight: 700;
+  width:86px
 }

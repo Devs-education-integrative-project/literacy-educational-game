@@ -1,15 +1,18 @@
 import React from 'react'
 import Button from '../Buttons/BtnsStartGame'
-
-export const TelaJogar = () => {
+import './style.css'
+const TelaJogar = () => {
   return (
     <div className='jogar'>
       <p>QUAL A PRIMEIRA LETRA DO NOME DESSE ANIMAL?</p>
-      <img src={logo} alt="" />
-      <div className='iniciar-jogo__btn'>
-        <Button>SIM</Button>
-        <Button>NÃO</Button>
+
+      <div className='jogar-jogo__btn'>
+        <Button>A</Button>
+        <Button>E</Button>
+        <Button>B</Button>
+        <Button>C</Button>
       </div>
     </div>
   )
 }
+export default TelaJogar
