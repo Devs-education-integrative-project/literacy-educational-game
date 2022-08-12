@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './BtnsStartGame.css'
 
 const Button = ({ children }) => {

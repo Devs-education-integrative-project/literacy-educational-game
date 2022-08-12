@@ -1,3 +1,4 @@
+import React from 'react';
 import './ModalAcertoErro.css'
 
 const ModalAcerto = () => {
