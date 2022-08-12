@@ -5,9 +5,6 @@ import TelaDeOpcao from './components/TelaDeOpcao/TelaDeOpcao';
 import BackgroundContent from './components/BackgroundContentGame';
 import './App.css';
 
-
-
-
 const App = () => {
   return (
     <div className="App">
