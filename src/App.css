@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 @import url('./styleGlobal.css');
 
+=======
+>>>>>>> 497a1c19d6acb8946434a83bdbdd6d186c3622f4
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -9,4 +12,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+<<<<<<< HEAD
+=======
+}
+
+.App-link {
+  color: #61dafb;
+>>>>>>> 497a1c19d6acb8946434a83bdbdd6d186c3622f4
 }
