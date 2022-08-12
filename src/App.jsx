@@ -14,8 +14,8 @@ const App = () => {
       {/* <ModalAcerto/> */}
       {/* <ModalErro/> */}
       {/* <TelaDeOpcao/> */}
-      <Button>Novo jogo</Button>
-      <Button>Continuar</Button>
+      {/* <Button>Novo jogo</Button>
+      <Button>Continuar</Button> */}
 
     </div>
   );
