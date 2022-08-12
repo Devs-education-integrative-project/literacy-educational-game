@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Tema
+Jogo educacional de pré-alfabetização para crianças entre 3 e 8 anos.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Objetivo
+A pandemia do coronavírus afetou de forma negativa todos os estudantes, mas os estudantes de alfabetização foram os mais impactados, segundo a ONG Todos Pela Educação, o número de crianças brasileiras de 6 e 7 anos que não sabem ler e escrever cresceu 66% de 2019 para 2021.
 
-## Available Scripts
+O projeto tem, portanto, como objetivo desenvolver um jogo educacional voltado para auxiliar na alfabetização de dois grupos:
 
-In the project directory, you can run:
+Crianças em idade de pré alfabetização - 3 a 5 anos
+Crianças em idade de alfabetização - 6 a 8 anos (que tinham idade de pré alfabetização quando iniciou a pandemia)
+O jogo é voltado para ensinar as letras do alfabeto e seus fonemas, onde a criança deverá acertar qual a letra inicial do nome dos animais que aparecerem na tela, dessa forma elas poderão aprender brincando, de forma lúdica e divertida.
 
-### `npm start`
+# Escolha do design
+Buscamos deixar o sistema o mais infantil e interativo para crianças, sendo assim, escolhemos cores e fontes que aproximassem mais o jogo do público alvo.
+Dentro das fontes, a escolhida foi a chubby cheeks, que se encaixou melhor em todos os elementos do site, e da nossa proposta.
+Procuramos deixar tudo bem colorido para prender a atenção das crianças, deixá-las confortáveis e felizes.
+Buscamos deixar as partes clicáveis do meio da viewport para baixo, pois facilita que a criança clique se estiver jogando pelo celular, e também para criar um padrão no jogo.
+Escolhemos deixar os botões com um tamanho maior para facilitar o toque, pois as crianças dessas faixa etária não tem a coordenação motora fina bem desenvolvida.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Wireframe
+PS: dentro do wireframe contém as telas,paletas e tipografia que se pretende usar:
+<a href="https://www.figma.com/file/VPeIdKIDIaNb8U8hwA0HjX/PROJETO-INTEGRADOR-GRUPO-1---literacy-educational-game?node-id=0%3A1">Link para wireframe v1 da sprint 1 no Figma</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+PS: dentro do wireframe contém todas as telas do jogo personalizadas:
+<a href="https://www.figma.com/file/VPeIdKIDIaNb8U8hwA0HjX/PROJETO-INTEGRADOR-GRUPO-1---literacy-educational-game?node-id=87%3A80">Link para wireframe v2 da sprint 2 no Figma</a>
 
-### `npm test`
+# Histórias do usuário
+- Eu como usuário quero ter a opção de começar um novo jogo e de continuar um jogo salvo.
+- Eu como usuário quero ter a opção de colocar meu nome e minha idade na tela.
+- Eu como usuário quero ter a opção de confirmar se desejo realmente iniciar um novo jogo.
+- Eu como usuário quero ter a opção de assistir ou não o tutorial.
+- Eu como usuário quero saber minha pontuação total.
+- Eu como usuário quero receber uma mensagem de parabenização pelo meu desempenho independente do meu resultado.
+- Eu como usuário quero receber uma mensagem motivacional pelo meu desempenho independente do meu resultado.
+- Eu como usuário quero ouvir todas as mensagens.
+- Eu como usuário quero voltar ao início do jogo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Histórias do gerente
+- Eu como gerente quero que apareça uma pergunta na tela com a imagem referência.<br>
+- Eu como gerente quero que o usuário tenha 4 opções de respostas.<br>
+- Eu como gerente quero que uma dessas respostas seja verdadeira e as outras 3 falsas.<br>
+- Eu como gerente quero que mostre visualmente na tela quando for verdadeira e quando for falsa.<br>
+- Eu como gerente quero que saia o som das letras quando o usuário clicar nelas, para correlacionar som com escrita.<br>
+- Eu como gerente quero que o usuário vá para a próxima pergunta após marcar a resposta da atual.<br>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
