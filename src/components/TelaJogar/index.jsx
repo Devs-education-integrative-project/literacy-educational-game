@@ -5,7 +5,7 @@ const TelaJogar = () => {
   return (
     <div className='jogar'>
       <p>QUAL A PRIMEIRA LETRA DO NOME DESSE ANIMAL?</p>
-
+      <p>imagem que vira da api</p>
       <div className='jogar-jogo__btn'>
         <Button>A</Button>
         <Button>E</Button>
