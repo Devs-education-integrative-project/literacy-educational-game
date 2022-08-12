@@ -1,7 +1,6 @@
 @import url('./styleGlobal.css');
 
 .App-header {
- 
   flex-direction: column;
   align-items: center;
   justify-content: center;

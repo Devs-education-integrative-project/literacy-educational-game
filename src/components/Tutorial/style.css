@@ -1,29 +1,27 @@
-.iniciar-jogo {
+@import url('../../styleGlobal.css');
+
+.tutorial-jogo {
   width: 603px;
   height: 500px;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #175496;
   flex-wrap: wrap;
   border-radius: 10px;
 }
 
-.iniciar-jogo p {
-  color: #F7F7F7;
-  font-size: 32px;
-  margin-top: 30px;
-  width: 447px;
-  text-align: center;
-}
-
-.iniciar-jogo__btn {
+.tutorial-jogo__btn {
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  align-items: center;
+
   font-weight: 400;
 }
 
-.iniciar-jogo__btn button {
+.tutorial-jogo button {
   padding: 2.1rem;
   font-size: 32px;
   font-weight: 700;
+  margin-bottom: 47px;
 }
