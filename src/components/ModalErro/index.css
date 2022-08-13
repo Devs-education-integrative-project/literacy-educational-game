@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background{
+  background-image: url('../../assets/images/background2\ 12.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.ModalContainerWrong {
+  margin: auto;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(217, 217, 217, 0.5);
+  border: 1px solid black;
+}
+
+.mensage-wrong-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 30vh;
+  background-color: rgba(255, 68, 68, 0.8);
+
+  font-family: "Chubby Cheeks";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 62px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #111111;
+}
+
+.hidden{
+    display: none;
+}

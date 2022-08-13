@@ -1,0 +1,50 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../../assets/images/background2\ 12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.image-logo {
+  width: 40%;
+  height: 80%;
+  background-color: #175496;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tutorial-jogo {
+  width: 40%;
+  height: 80%;
+  background-color: #175496;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorial-jogo__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-weight: 400;
+}
+
+.tutorial-jogo button {
+  padding: 2.1rem;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 47px;
+}
