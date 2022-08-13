@@ -6,16 +6,18 @@ import BackgroundContent from './components/BackgroundContentGame';
 import TelaJogar from './components/TelaJogar'
 import Tutorial from './components/Tutorial';
 import './App.css';
+
 import TelaDeInicio from './components/TelaDeInicio';
 
 const App = () => {
   return (
     <div className="App">
-
-      {/* <TelaJogar /> */}
+      {/* <TelaDeInicio /> */}
+      <TelaJogar />
+      {/* <TelaDeOpcao /> */}
       {/* <ModalAcerto/> */}
-      {/* <ModalErro/> */}
-      <TelaDeInicio />
+      {/* <ModalErro /> */}
+
 
     </div>
   );
