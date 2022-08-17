@@ -13,13 +13,13 @@ const App = () => {
   return (
     <div className="App">
 
-      <TelaDeInicio />
-      <TelaDeOpcao/>
-      <Tutorial/>
+      {/* <TelaDeInicio /> */}
+      {/* <TelaDeOpcao/> */}
+      {/* <Tutorial/> */}
       <TelaJogar />
       <ModalAcerto/>
       <ModalErro/>
-      <EndGame/>
+      {/* <EndGame/> */}
 
     </div>
   );

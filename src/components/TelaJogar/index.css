@@ -22,17 +22,16 @@
   justify-content: space-around;
 }
 
-.jogar p {
+.pergunta{
+  width: 90%;
   color: #312403;
   font-size: 36px;
-  /* margin-top: 30px; */
-  width: 447px;
   text-align: center;
 }
 .image-game{
   width: 50%;
   height: 50%;
-  background-image: url(../../assets/images/abelha.png);
+  /* background-image: url(../../assets/images/abelha.png); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -44,13 +43,18 @@
 
 .jogar-jogo__btn {
   display: flex;
+  justify-content: space-around;
   width: 100%;
   font-weight: 400;
 }
 
-.jogar-jogo__btn button {
-  padding: 2.1rem;
+.btns-quiz {
+  width:20%;
   font-size: 32px;
   font-weight: 700;
-  width:86px
+
+  background: #f7f7f7;
+  border: 1px solid #dedede;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }

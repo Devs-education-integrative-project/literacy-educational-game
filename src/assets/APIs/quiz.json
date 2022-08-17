@@ -1,0 +1,6 @@
+{
+    "pergunta": "qual é a primeira letra desse animal?",
+    "imagem": "../../assets/images/abelha.png",
+    "btn": ["A","B", "C", "D"],
+    "resposta": "A"
+    }
