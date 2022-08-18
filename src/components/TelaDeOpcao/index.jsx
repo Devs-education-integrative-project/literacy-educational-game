@@ -2,17 +2,19 @@ import React from 'react'
 import Button from '../Buttons/BtnsStartGame'
 import logo from '../../assets/logo.png'
 import './index.css'
+
+
 const TelaDeOpcao = () => {
   return (
-    <div className="background">
-    <div className='iniciar-jogo'>
-      <img src={logo} alt="" />
+    <div className="tela-opcao">
+      <img src={logo} alt="logo" />
       <p>TEM CERTEZA QUE DESEJA INICIAR UM NOVO JOGO?</p>
-      <div className='iniciar-jogo__btn'>
+
+      <div className='tela-opcao-jogo__btn'>
         <Button>SIM</Button>
         <Button>NÃO</Button>
+
       </div>
-    </div>
     </div>
   )
 }
