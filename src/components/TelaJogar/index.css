@@ -5,15 +5,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-image: url('../../assets/images/background2\ 12.jpg');
-  background-size: cover;
 }
 .jogar {
-
   width: 40%;
   height: 80%;
-  background-color: #FFAC33;
+  background-color:var(--secondary-color);
   border-radius: 10px;
 
   display: flex;
