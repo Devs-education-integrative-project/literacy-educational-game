@@ -1,9 +1,10 @@
 import React from 'react'
 import Button from '../Buttons/BtnsStartGame'
 import logo from '../../assets/logo.png'
-import './style.css'
+import './index.css'
 const TelaDeOpcao = () => {
   return (
+    <div className="background">
     <div className='iniciar-jogo'>
       <img src={logo} alt="" />
       <p>TEM CERTEZA QUE DESEJA INICIAR UM NOVO JOGO?</p>
@@ -11,6 +12,7 @@ const TelaDeOpcao = () => {
         <Button>SIM</Button>
         <Button>NÃO</Button>
       </div>
+    </div>
     </div>
   )
 }

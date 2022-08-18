@@ -1,0 +1,56 @@
+@import url('../../styleGlobal.css');
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url('../../assets/images/background2\ 12.jpg');
+  background-size: cover;
+}
+.jogar {
+
+  width: 40%;
+  height: 80%;
+  background-color: #FFAC33;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.jogar p {
+  color: #312403;
+  font-size: 36px;
+  /* margin-top: 30px; */
+  width: 447px;
+  text-align: center;
+}
+.image-game{
+  width: 50%;
+  height: 50%;
+  background-image: url(../../assets/images/abelha.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jogar-jogo__btn {
+  display: flex;
+  width: 100%;
+  font-weight: 400;
+}
+
+.jogar-jogo__btn button {
+  padding: 2.1rem;
+  font-size: 32px;
+  font-weight: 700;
+  width:86px
+}

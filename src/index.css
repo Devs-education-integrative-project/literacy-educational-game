@@ -11,6 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,11 +43,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
   background-image: url('./assets/images/background2\ 12.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background-position: center;
 }
