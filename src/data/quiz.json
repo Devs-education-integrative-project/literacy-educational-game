@@ -1,0 +1,9 @@
+{"data":[
+  [
+    { answerText: 'Apple', isCorrect: true },
+    { answerText: 'Intel', isCorrect: false },
+    { answerText: 'Amazon', isCorrect: false },
+    { answerText: 'Microsoft', isCorrect: false }
+  ]
+]
+}

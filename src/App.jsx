@@ -11,18 +11,16 @@ import EndGame from './components/EndGame';
 const App = () => {
   return (
     <div className="App">
+      {/* <TelaDeInicio /> */}
+      <Tutorial />
+      
 
-      <TelaDeOpcao />
-
-      {/* <TelaDeInicio />
-      <TelaDeOpcao />
+{/*       
       <Tutorial />
       <TelaJogar />
       <ModalAcerto />
-      <ModalErro />
-      <EndGame /> */}
-
-
+      <ModalErro /> */}
+      {/* <EndGame /> */}
     </div>
   );
 }
