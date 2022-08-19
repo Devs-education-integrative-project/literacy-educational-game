@@ -1,3 +1,4 @@
+// import React from 'react'
 import Button from './components/Buttons/BtnsStartGame';
 import ModalAcerto from './components/ModalAcerto';
 import ModalErro from './components/ModalErro';
@@ -16,9 +17,9 @@ const App = () => {
       {/* <TelaDeInicio /> */}
       {/* <TelaDeOpcao/> */}
       {/* <Tutorial/> */}
-      <TelaJogar />
-      <ModalAcerto/>
-      <ModalErro/>
+      <TelaJogar/>
+      {/* <ModalAcerto/> */}
+      {/* <ModalErro/> */}
       {/* <EndGame/> */}
 
     </div>

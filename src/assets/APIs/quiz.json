@@ -1,6 +1,25 @@
-{
-    "pergunta": "qual é a primeira letra desse animal?",
-    "imagem": "../../assets/images/abelha.png",
-    "btn": ["A","B", "C", "D"],
-    "resposta": "A"
-    }
+
+
+[
+
+        {"id":1,
+        "question":"Qual é a primeira letra desse animal?" ,
+        "imagem": "./assets/logo.png ",
+        "btns":["A", "B", "C", "D"],
+        "alt":"imagem de uma abelha",
+        "answer":"A"
+        }    
+    ,
+
+        {"id":2,
+        "question":"Qual é a primeira letra desse objeto?" ,
+        "imagem": "./assets/abelha.png ",
+        "btns":["B", "T", "Z", "D"],
+        "alt":"imagem de uma abelha",
+        "answer":"A"
+        }    
+    
+]
+                
+        
+        
