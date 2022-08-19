@@ -32,15 +32,15 @@
 }
 input {
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
   font-size: 16px;
   font-weight: 700;
-  margin: 1.2rem 0;
+  margin: 1rem 0;
   border-radius: 10px;
-  width: 443px;
+  width: 300px;
   font-size: 36px;
   border: none;
-  overflow: hidden;
+  outline: 0;
 }
 input::placeholder {
   color: var(--button-color);
@@ -50,4 +50,5 @@ input::placeholder {
   padding: 1rem;
   font-size: 28px;
   font-weight: 700;
+  margin-bottom: 0.4rem;
 }
