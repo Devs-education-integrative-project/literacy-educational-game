@@ -1,4 +1,4 @@
-@import url('../../styleGlobal.css');
+@import url("../../styleGlobal.css");
 .background {
   width: 100vw;
   height: 100vh;
@@ -10,9 +10,8 @@
 .image-logo {
   width: 40%;
   height: 80%;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
   border-radius: 10px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,7 +20,7 @@
 .tutorial-jogo {
   width: 40%;
   height: 80%;
-  background-color:var(--primary-color);
+  background-color: var(--primary-color);
   border-radius: 10px;
 
   display: flex;
