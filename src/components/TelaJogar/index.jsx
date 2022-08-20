@@ -2,6 +2,7 @@
 // import './index.css'
 // import api from '../../assets/APIs/quiz.json'
 // // import imageQuiz from '../../assets/images/abelha.png'
+// import imf from '../../../public/assets/img-abelha.png'
 
 // const TelaJogar = () => {
 //   console.log(api);

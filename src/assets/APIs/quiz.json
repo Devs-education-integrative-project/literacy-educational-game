@@ -4,19 +4,42 @@
 
         {"id":1,
         "question":"Qual é a primeira letra desse animal?" ,
-        "imagem": "./assets/logo.png ",
+        "imagem": "./assets/images/img-abelha.png",
         "btns":["A", "B", "C", "D"],
         "alt":"imagem de uma abelha",
         "answer":"A"
         }    
     ,
-
         {"id":2,
         "question":"Qual é a primeira letra desse objeto?" ,
-        "imagem": "./assets/abelha.png ",
-        "btns":["B", "T", "Z", "D"],
-        "alt":"imagem de uma abelha",
-        "answer":"A"
+        "imagem": "./assets/images/img-bola.png ",
+        "btns":["C", "T", "B", "D"],
+        "alt":"imagem de uma bola",
+        "answer":"B"
+        }    
+    ,
+        {"id":3,
+        "question":"Qual é a primeira letra desse animal?" ,
+        "imagem": "./assets/images/img-cachorro.png ",
+        "btns":["D", "C", "B", "F"],
+        "alt":"imagem de um cachorro",
+        "answer":"C"
+        }    
+    ,
+        {"id":4,
+        "question":"Qual é a primeira letra desse objeto?" ,
+        "imagem": "./assets/images/img-dado.png ",
+        "btns":["D", "C", "B", "F"],
+        "alt":"imagem de um dado",
+        "answer":"D"
+        }    
+    ,
+        {"id":5,
+        "question":"Qual é a primeira letra desse animal?" ,
+        "imagem": "./assets/images/img-elefante.png ",
+        "btns":["A", "C", "B", "E"],
+        "alt":"imagem de um dado",
+        "answer":"E"
         }    
     
 ]
