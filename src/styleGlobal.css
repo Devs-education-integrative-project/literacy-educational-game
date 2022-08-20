@@ -1,9 +1,42 @@
 * {
-  font-family: 'Chubby Cheeks';
-  display: flex;
-  align-items: center;
-}
+  font-family: "Chubby Cheeks";
+ }
 
 button {
   cursor: pointer;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chubby Cheeks";
 }
+
+body {
+  background-image: url("./assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+button {
+  cursor: pointer;
+}
+button:hover {
+  filter: brightness(0.9);
+}
+:root {
+  --primary-color: #175496;
+  --secondary-color: #ffac33;
+  --success-color: #61ff29;
+  --wrong-color: #ff4444;
+  --modal--success: rgba(97, 255, 41, 0.7);
+  --modal-wrong-color: rgba(246, 99, 102, 0.8);
+  --text-screen-color: #f7f7f7;
+  --button-color: #2e2e2e;
+}
+.link {
+  text-decoration: none;
+}
+

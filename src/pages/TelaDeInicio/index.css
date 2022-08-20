@@ -1,0 +1,55 @@
+/* @import "../../styleGlobal.css";  */
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.iniciar-jogo {
+  width: 40%;
+  height: 80%;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-logo {
+  width: 70%;
+  height: 40%;
+  background-image: url("../../assets/images/logo-qual-e-a-letra.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.iniciar-jogo__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 1rem 0;
+  border-radius: 10px;
+  width: 300px;
+  font-size: 36px;
+  border: none;
+  outline: 0;
+}
+input::placeholder {
+   color: var(--button-color); 
+}
+
+.iniciar-jogo__btn button {
+  padding: 1rem;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+} 

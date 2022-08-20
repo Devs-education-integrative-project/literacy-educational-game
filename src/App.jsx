@@ -1,31 +1,30 @@
-import Button from './components/Buttons/BtnsStartGame';
+import Button from './components/BtnStartLoad';
 import ModalAcerto from './components/ModalAcerto';
 import ModalErro from './components/ModalErro';
-import TelaDeOpcao from './components/TelaDeOpcao';
+import TelaDeOpcao from './pages/TelaDeOpcao';
 import BackgroundContent from './components/BackgroundContentGame';
-import TelaJogar from './components/TelaJogar'
-import Tutorial from './components/Tutorial';
-import './App.css';
+import TelaJogar from './pages/TelaJogar'
+import Tutorial from './pages/Tutorial';
+import TelaDeInicio from './pages/TelaDeInicio';
+import EndGame from './pages/EndGame';
 
-import TelaDeInicio from './components/TelaDeInicio';
-import EndGame from './components/EndGame';
+
+import './styleGlobal.css'
+
 
 const App = () => {
   return (
     <div className="App">
 
-     
+      <Tutorial />
+      <TelaDeOpcao />
 
 
-
-      <TelaDeInicio />
-      <TelaDeOpcao/>
-      <Tutorial/>
-      <TelaJogar />
-      <ModalAcerto/>
-      <ModalErro/>
-      <EndGame/>
-
+      {/*
+      <Tutorial />
+      <ModalAcerto />
+      <ModalErro /> */}
+      {/* <EndGame /> */}
 
     </div>
   );

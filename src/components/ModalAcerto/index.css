@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-.background{
-  background-image: url('../../assets/images/background2\ 12.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 .ModalContainerRight {
   width: 100vw;
   height: 100vh;
@@ -30,7 +23,7 @@
 
   width: 100vw;
   height: 30vh;
-  background-color: rgba(97, 255, 41, 0.7);
+  background-color: var(--modal--success);
 
   font-family: "Chubby Cheeks";
   font-style: normal;
