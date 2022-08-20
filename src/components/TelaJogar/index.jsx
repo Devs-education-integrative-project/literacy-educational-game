@@ -38,10 +38,10 @@ import './index.css'
 import api from '../../assets/APIs/quiz.json'
 // import image from '../../assets/images/abelha.png'
 // import imageQuiz from '../../assets/images/abelha.png'
-let numberQuiz = 1;
+let numberQuiz = 4;
 const TelaJogar = () => {
   function handleClick(e){
-    if(e===api.quiz1[0].resposta){
+    if(e==api[numberQuiz].answer){
       console.log('acertou');
 
     }else{
