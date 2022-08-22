@@ -1,10 +1,10 @@
 import './index.css'
 
-const ButtonsStartGame = () => {
+const ButtonsStartGame = ({ children, click }) => {
   return (
     <div className="btn-groups">
-      <button className="btn-new-game">Novo jogo</button>
-      <button className="btn-continue-game">Continuar</button>
+      <button className="btn-new-game" onClick={click}>{children}</button>
+
     </div>
   );
 }

@@ -1,0 +1,30 @@
+.tela-opcao {
+  width: 610px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.tela-opcao p {
+  color: var(--text-screen-color);
+  font-size: 32px;
+  margin-top: 1rem;
+  width: 447px;
+  text-align: center;
+}
+
+.tela-opcao-jogo__btn {
+  display: flex;
+  font-weight: 400;
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.tela-opcao-jogo__btn button {
+  padding: 2.1rem;
+  font-size: 32px;
+  font-weight: 700;
+}
