@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css'
 import api from '../../assets/APIs/quiz.json'
 
-let numberQuiz = 25;
+let numberQuiz = 0;
 const TelaJogar = () => {
   function handleClick(e){
     if(e===api[numberQuiz].answer){
