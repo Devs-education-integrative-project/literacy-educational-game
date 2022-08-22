@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../Buttons/BtnsStartGame'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/images/logo-qual-e-a-letra.png'
 import './index.css'
 const Tutorial = () => {
   return (
