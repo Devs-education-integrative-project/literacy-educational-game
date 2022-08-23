@@ -18,21 +18,29 @@ const TelaJogar = () => {
     if (e.target.innerText === quiz[numberQuiz].answer) {
       console.log('acertou');
       e.target.classList.add("btn-green");
+      setDisable(true);
+setTimeout(() => {
+  nextQuestion(e)
+}, 1000);
 
-      nextQuestion()
     } else {
       console.log('errou');
-      e.target.classList.add("btn-white");
-
-      nextQuestion()
+      e.target.classList.add("btn-red");
+      setDisable(true);
+      setTimeout(() => {
+  nextQuestion(e)
+}, 1000);
 
     }
   }
 
-  function nextQuestion() {
+  function nextQuestion(e) {
     if (numberQuiz <= 26) {
-
+      console.log(e.target);
+     e.target.classList.remove("btn-green");
+     e.target.classList.remove("btn-red");
       setCorrect(numberQuiz++)
+      setDisable(false);
     }
 
   }
