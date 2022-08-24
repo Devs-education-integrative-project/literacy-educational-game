@@ -59,39 +59,11 @@ const TelaJogar = () => {
           className="image-game"
         />
         <div className="jogar-jogo__btn">
-          <button
-            disabled={disableButtons}
+          {api[numberQuiz].btns.map(item=><button disabled={disableButtons}
             className="btn-white"
-            key={1}
-            onClick={handleClick}
-          >
-            {api[numberQuiz].btns[0]}
-          </button>
-          <button
-            disabled={disableButtons}
-            className="btn-white"
-            key={2}
-            onClick={handleClick}
-          >
-            {api[numberQuiz].btns[1]}
-          </button>
-          <button
-            disabled={disableButtons}
-            className="btn-white"
-            key={3}
-            onClick={handleClick}
-          >
-            {api[numberQuiz].btns[2]}
-          </button>
+            key={item}
+            onClick={handleClick} >{item}</button>)}
 
-          <button
-            disabled={disableButtons}
-            className="btn-white"
-            key={4}
-            onClick={handleClick}
-          >
-            {api[numberQuiz].btns[3]}
-          </button>
         </div>
       </div>
     </div>
