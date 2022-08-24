@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './index.css';
 import api from '../../assets/APIs/quiz.json';
 import ModalAcerto from '../../components/ModalAcerto';
 import ModalErro from '../../components/ModalErro';
-
-// let numberQuiz = 0;
 
 const TelaJogar = () => {
   const [disableButtons, setDisableButtons] = React.useState(false);
@@ -12,12 +10,6 @@ const TelaJogar = () => {
   const [modalAcerto, setModalAcerto] = React.useState('hiddenModalAcerto');
   const [modalErro, setModalErro] = React.useState('hiddenModalErro');
   const [score, setScore] = React.useState(100);
-  // console.log(score);
-
-  
-  // useEffect(() => {
-  //   setQuiz(api);
-  // }, []);
 
   function handleClick(e) {
     if (e.target.innerText === api[numberQuiz].answer) {
@@ -41,7 +33,7 @@ const TelaJogar = () => {
   }
 
   function nextQuestion(e) {
-    if (numberQuiz <= 26) {
+    if (numberQuiz <= api.length) {
       e.target.classList.remove('btn-green');
       e.target.classList.remove('btn-red');
       setNumberQuiz(numberQuiz +1);
