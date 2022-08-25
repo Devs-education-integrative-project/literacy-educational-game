@@ -3,7 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+.background{
+  position: fixed;
+  top: 0;
+  left:0;
+  
+}
+.hiddenModalErro{
+  display: none;
+}
 .ModalContainerWrong {
+  position: fixed;
+  top: 0;
+  left:0;
   margin: auto;
   width: 100vw;
   height: 100vh;
