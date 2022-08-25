@@ -77,7 +77,7 @@ const TelaJogar = () => {
 
           </div>
         </div>
-        : <EndGame />
+        : <EndGame score={score} />
       }
 
 
