@@ -8,7 +8,7 @@
   align-items: center;
 }
 .image-logo {
-  width: 40%;
+  width: 610px;
   height: 80%;
   background-color: var(--primary-color);
   border-radius: 10px;
@@ -42,4 +42,3 @@
   font-weight: 700;
   margin-bottom: 2px;
 }
-
