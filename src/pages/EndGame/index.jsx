@@ -16,7 +16,7 @@ function EndGame({ score }) {
     return (
         <div className="container-end-game">
             <div className="group-content">
-                <h1 className='title'>{result < 50 ? 'NÃO FOI DESSA VEZ TENTE NOVAMENTE' : 'PARABÉNS!!!!! VOCÊ DOMINOU O ALFABETO!'}</h1>
+                <h1 className='title'>{result < 50 ? 'NÃO FOI DESSA VEZ TENTE NOVAMENTE' : `PARABÉNS ${localStorage.getItem('users')} !!!!! VOCÊ DOMINOU O ALFABETO!`}</h1>
                 <div className="img-trofel">
                     <span className='score'>{result}%</span>
                 </div>
