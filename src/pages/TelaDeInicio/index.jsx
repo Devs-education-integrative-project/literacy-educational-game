@@ -12,7 +12,7 @@ const TelaDeInicio = () => {
   }
   function saveData() {
     let users = []
-    localStorage.setItem('users', dados.nome)
+    localStorage.setItem('users', dados.nome.toUpperCase())
     if (localStorage.getItem('users')) {
       users = JSON.parse(localStorage.getItem('users'));
       const user = users.find(u => u.nome === u.nome);
@@ -28,8 +28,10 @@ const TelaDeInicio = () => {
       <div className="iniciar-jogo">
         <div className="image-logo"></div>
         <div className="iniciar-jogo__btn">
-          <input type="text" name="nome" id="" placeholder="NOME" onChange={handleData} value={dados.nome} />
-          <input type="number" name="idade" id="" placeholder="IDADE" onChange={handleData} value={dados.idade} />
+          <form autoComplete="off" className="input-inicio">
+          <input className="input-inicio" type="text" name="nome" id="" placeholder="Digite seu nome aqui ..." onChange={handleData} value={dados.nome} />
+          <input  className="input-inicio" type="number" name="idade" id="" placeholder="Digite sua idade aqui ..." onChange={handleData} value={dados.idade}  />
+          </form>
 
           <Link className='link' to={'/jogar'}><Button click={saveData}>INICIAR JOGO</Button></Link>
         </div>

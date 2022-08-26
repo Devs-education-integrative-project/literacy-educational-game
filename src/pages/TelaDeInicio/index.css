@@ -29,7 +29,7 @@
   flex-direction: column;
   align-items: center;
 }
-input {
+.input-inicio {
   text-align: center;
   padding: 0.5rem;
   font-size: 16px;
@@ -41,8 +41,10 @@ input {
   border: none;
   outline: 0;
 }
-input::placeholder {
-  color: var(--button-color);
+.input-inicio::placeholder {
+  color: gray;
+  font-size: 1.3rem;
+  font-family:sans-serif;
 }
 
 .iniciar-jogo__btn button {

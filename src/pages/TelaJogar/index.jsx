@@ -8,7 +8,7 @@ import './index.css';
 
 const TelaJogar = () => {
   const [disableButtons, setDisableButtons] = React.useState(false);
-  const [numberQuiz, setNumberQuiz] = React.useState(0);
+  const [numberQuiz, setNumberQuiz] = React.useState(25);
   const [modalAcerto, setModalAcerto] = React.useState('hiddenModalAcerto');
   const [modalErro, setModalErro] = React.useState('hiddenModalErro');
   const [score, setScore] = React.useState(100);
