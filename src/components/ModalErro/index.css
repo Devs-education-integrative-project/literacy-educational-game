@@ -3,11 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.ModalContainer {
+.background{
+  position: fixed;
+  top: 0;
+  left:0;
+  
+}
+.hiddenModalErro{
+  display: none;
+}
+.ModalContainerWrong {
+  position: fixed;
+  top: 0;
+  left:0;
   margin: auto;
-  width: 500px;
-  height: 500px;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -16,7 +27,6 @@
   border: 1px solid black;
 }
 
-.mensage-right-text,
 .mensage-wrong-text {
   display: flex;
   justify-content: center;
@@ -24,7 +34,7 @@
 
   width: 100vw;
   height: 30vh;
-  background-color: rgba(97, 255, 41, 0.7);
+  background-color: var(--modal-wrong-color);
 
   font-family: "Chubby Cheeks";
   font-style: normal;
@@ -37,9 +47,6 @@
   color: #111111;
 }
 
-.mensage-wrong-text {
-  background-color: rgba(255, 68, 68, 0.8);;
-}
 .hidden{
     display: none;
 }
