@@ -23,7 +23,7 @@ const TelaDeOpcao = () => {
 
       <div className='tela-opcao-jogo__btn'>
         <Link className='link' to={'/inicio'}><Button>NOVO JOGO</Button></Link>
-        <Button click={resultQuiz}>CONTINUAR</Button>
+        <Link className='link' to={'/jogar'}><Button click={resultQuiz}>CONTINUAR</Button></Link>
       </div>
     </div>
   )

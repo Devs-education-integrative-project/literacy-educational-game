@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './index.css'
 
 function EndGame({ score }) {
+
     const [result, setResult] = useState(score)
     const finalResult = () => {
         if (result < 50) {
@@ -13,6 +14,11 @@ function EndGame({ score }) {
         }
     }
     console.log(result)
+
+    function handleClickRestartGame(){
+        localStorage.setItem('CURRENT__QUIZ', 0)
+        localStorage.setItem('SCORE', 100)
+    }
     return (
         <div className="container-end-game">
             <div className="group-content">
@@ -20,7 +26,7 @@ function EndGame({ score }) {
                 <div className="img-trofel">
                     <span className='score'>{result}%</span>
                 </div>
-                <Link className='link' to={'/'}><button className="btn-play-again">JOGAR NOVAMENTE</button>
+                <Link className='link' to={'/'} onClick={handleClickRestartGame}><button className="btn-play-again">JOGAR NOVAMENTE</button>
                 </Link>
             </div>
         </div>
