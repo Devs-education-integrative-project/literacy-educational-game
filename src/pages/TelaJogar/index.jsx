@@ -8,7 +8,7 @@ import './index.css';
 
 const TelaJogar = () => {
   const [disableButtons, setDisableButtons] = React.useState(false);
-  const [numberQuiz, setNumberQuiz] = React.useState(25);
+  const [numberQuiz, setNumberQuiz] = React.useState(5);
   const [modalAcerto, setModalAcerto] = React.useState('hiddenModalAcerto');
   const [modalErro, setModalErro] = React.useState('hiddenModalErro');
   const [score, setScore] = React.useState(100);
@@ -35,10 +35,10 @@ const TelaJogar = () => {
         nextQuestion(e);
       }, 2000);
     }
-
-
   }
-
+  const storyQuiz = () => {
+    localStorage.setItem('CURRENT__QUIZ', numberQuiz)
+  }
   function nextQuestion(e) {
     if (numberQuiz <= api.length) {
       e.target.classList.remove('btn-green');
@@ -47,9 +47,12 @@ const TelaJogar = () => {
       setDisableButtons(false);
       setModalAcerto('hiddenModalAcerto');
       setModalErro('hiddenModalErro');
+      storyQuiz()
+
     }
     showComponent(true)
   }
+
 
   return (
     <div className="container">

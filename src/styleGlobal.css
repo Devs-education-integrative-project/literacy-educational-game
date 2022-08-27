@@ -1,13 +1,5 @@
 * {
   font-family: "Chubby Cheeks";
- }
-
-button {
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Chubby Cheeks";
 }
 
 body {
@@ -22,7 +14,12 @@ body {
 }
 button {
   cursor: pointer;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chubby Cheeks";
 }
+
 button:hover {
   filter: brightness(0.9);
 }
@@ -39,4 +36,3 @@ button:hover {
 .link {
   text-decoration: none;
 }
-
