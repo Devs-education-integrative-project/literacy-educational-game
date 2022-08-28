@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import api from '../../assets/APIs/quiz.json';
 import ModalAcerto from '../../components/ModalAcerto';
 import ModalErro from '../../components/ModalErro';
-import EndGame from '../EndGame';
+import EndGame from '../EndGame/EndGame';
 import './quiz.css';
 
 const Quiz = () => {
