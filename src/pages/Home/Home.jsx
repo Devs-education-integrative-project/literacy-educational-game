@@ -10,7 +10,7 @@ const Home = () => {
       <Link className="link" to={'/setName'}>
         <Button>NOVO JOGO</Button>
       </Link>
-      <Link className="link" to={'/jogar'}>
+      <Link className="link" to={'/quiz'}>
         <Button>CONTINUAR</Button>
       </Link>
     </BackgroundContent>

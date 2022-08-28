@@ -1,14 +1,16 @@
- /*@import url("../../styleGlobal.css"); */
-.container {
+.container-quiz {
   width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.jogar {
-  width: 610px;
-  height: 80%;
+.background-content-quiz {
+  width: 40vw;
+  height: 80vh;
+
+  position: relative;
+
   background-color: var(--secondary-color);
   border-radius: 10px;
 
@@ -17,82 +19,63 @@
   align-items: center;
   justify-content: space-around;
 }
+.btn-exit-quiz {
+  width: 3rem;
+  height: 3rem;
 
-.pergunta{
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+  margin: 0.5rem;
+
+  border: none;
+  border-radius: 50%;
+
+  color: white;
+  background-color: red;
+  font-size: 1.5rem;
+  
+}
+.question-quiz {
   width: 90%;
+
   color: #312403;
+
   font-size: 36px;
-
-  margin-top: 30px;
-  width: 447px;
-
   text-align: center;
 }
-.image-game {
+.image-quiz {
   width: 50%;
   height: 50%;
-  /* background-image: url(../../assets/images/abelha.png); */
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
+.group-btn-quiz {
+  width: 100%;
 
-.jogar-jogo__btn {
   display: flex;
   justify-content: space-around;
-  width: 100%;
-  font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 0.7rem;
 }
 
-.btn-white {
-  width:20%;
-  font-size: 32px;
-  font-weight: 700;
+.btn-quiz-white {
+  width: 15%;
 
+  font-size: 32px;
+  font-weight: bold;
 
   background-color: #f7f7f7;
   border: 1px solid #dedede;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-
-  width: 86px;
-
 }
-.btn-green {
-  width:20%;
-  font-size: 32px;
-  font-weight: 700;
 
-
+.btn-quiz-green {
+  color: white;
   background-color: green;
-  color: white;
   border: 1px solid green;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-
-  width: 86px;
-
 }
-.btn-red {
-  width:20%;
-  font-size: 32px;
-  font-weight: 700;
-
-
-  background-color: red;
+.btn-quiz-red {
   color: white;
+  background-color: red;
   border: 1px solid red;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-
-  width: 86px;
-
 }
-
-
-
