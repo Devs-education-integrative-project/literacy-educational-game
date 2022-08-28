@@ -5,6 +5,10 @@ import Button from '../../components/Button/Button';
 import './setNamePlayer.css';
 
 const SetNamePlayer = () => {
+function handleSubmitForm(e){
+  e.preventDefault();
+}
+
   function resetPlayerName() {
     localStorage.removeItem('PlayerName');
   }
@@ -20,13 +24,14 @@ const SetNamePlayer = () => {
 
   return (
     <BackgroundContent>
-      <form autoComplete="off" className="form-inicio">
+      <form autoComplete="off" className="form-inicio" onSubmit={handleSubmitForm}>
         <input
           className="input-name-player"
           type="text"
           name="nome"
           placeholder="Digite seu nome aqui ..."
           onChange={saveNamePlayer}
+          
         />
       </form>
       <Link className="link" to={'/tutorial'} onClick={resetarJogo}>

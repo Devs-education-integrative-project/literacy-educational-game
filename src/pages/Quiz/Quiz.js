@@ -4,10 +4,10 @@ import api from '../../assets/APIs/quiz.json';
 import ModalAcerto from '../../components/ModalAcerto';
 import ModalErro from '../../components/ModalErro';
 import EndGame from '../EndGame'
-import './index.css';
+import './quiz.css';
 
 
-const TelaJogar = () => {
+const Quiz = () => {
 if(localStorage.getItem('CURRENT__QUIZ') === undefined || localStorage.getItem('CURRENT__QUIZ') === null ){
   localStorage.setItem('CURRENT__QUIZ', 25);
   localStorage.setItem('SCORE', 100);
@@ -104,4 +104,4 @@ if(localStorage.getItem('CURRENT__QUIZ') === undefined || localStorage.getItem('
   );
 };
 
-export default TelaJogar;
+export default Quiz;
