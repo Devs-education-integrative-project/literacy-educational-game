@@ -1,9 +1,10 @@
-import './index.css'
+import './backgroundContentGame.css'
 
-function BackgroundContent(){
+function BackgroundContent(props){
     return(
         <div className="container-content">
             <div className="logo"></div>
+            <div>{props.children}</div>
         </div>
 
 

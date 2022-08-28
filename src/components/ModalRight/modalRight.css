@@ -1,0 +1,33 @@
+.hidden-modal-right{
+  display: none;
+}
+
+.container-modal-right {
+  width: 100vw;
+  height: 100vh;
+  
+  position: fixed;
+  top: 0;
+  left:0;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(217, 217, 217, 0.5);
+
+}
+
+.mensage-modal-right {
+  width: 100vw;
+  height: 30vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 4rem;
+
+  background-color: var(--modal--success);
+}
