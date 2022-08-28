@@ -1,26 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import BackgroundContent from '../../components/BackgroundContentGame/BackgroundContentGame';
 import Button from '../../components/Button/Button';
 import './setNamePlayer.css';
 
 const SetNamePlayer = () => {
-  const [dados, setDados] = useState({ nome: '', idade: '' });
+  function resetPlayerName() {
+    localStorage.removeItem('PlayerName');
+  }
+  resetPlayerName();
 
-  const handleData = (e) => {
-    setDados({ ...dados, [e.target.name]: e.target.value });
-  };
-  function saveData() {
-    let users = [];
-    localStorage.setItem('users', dados.nome.toUpperCase());
-    if (localStorage.getItem('users')) {
-      users = JSON.parse(localStorage.getItem('users'));
-      const user = users.find((u) => u.nome === u.nome);
-      if (user) {
-        users.push(user);
-        localStorage.setItem('token', dados.nome);
-      }
-    }
+  function saveNamePlayer(e) {
+    localStorage.setItem('PlayerName', e.target.value.toUpperCase());
   }
 
   return (
@@ -31,12 +22,11 @@ const SetNamePlayer = () => {
           type="text"
           name="nome"
           placeholder="Digite seu nome aqui ..."
-          onChange={handleData}
-          value={dados.nome}
+          onChange={saveNamePlayer}
         />
       </form>
       <Link className="link" to={'/tutorial'}>
-        <Button click={saveData}>INICIAR JOGO</Button>
+        <Button>INICIAR JOGO</Button>
       </Link>
     </BackgroundContent>
   );
