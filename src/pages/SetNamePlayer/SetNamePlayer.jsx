@@ -13,6 +13,10 @@ const SetNamePlayer = () => {
   function saveNamePlayer(e) {
     localStorage.setItem('PlayerName', e.target.value.toUpperCase());
   }
+  function resetarJogo(){
+    localStorage.setItem('CURRENT__QUIZ', 0)
+    localStorage.setItem('SCORE', 100)
+  }
 
   return (
     <BackgroundContent>
@@ -25,7 +29,7 @@ const SetNamePlayer = () => {
           onChange={saveNamePlayer}
         />
       </form>
-      <Link className="link" to={'/tutorial'}>
+      <Link className="link" to={'/tutorial'} onClick={resetarJogo}>
         <Button>INICIAR JOGO</Button>
       </Link>
     </BackgroundContent>
