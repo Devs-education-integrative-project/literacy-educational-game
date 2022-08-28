@@ -5,7 +5,7 @@ import Button from '../../components/Button/Button';
 import './home.css';
 
 const Home = () => {
-    if (localStorage.getItem('PlayerName') === undefined || localStorage.getItem('PlayerName') === null ) {
+    if (localStorage.getItem('SCORE') === undefined || localStorage.getItem('SCORE') === null ) {
       localStorage.setItem('hiddenBtnContinue',JSON.stringify({display: "none"}))
     }
 
