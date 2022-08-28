@@ -33,7 +33,7 @@ const TelaDeInicio = () => {
           <input  className="input-inicio" type="number" name="idade" id="" placeholder="Digite sua idade aqui ..." onChange={handleData} value={dados.idade}  />
           </form>
 
-          <Link className='link' to={'/jogar'}><Button click={saveData}>INICIAR JOGO</Button></Link>
+          <Link className='link' to={'/tutorial'}><Button click={saveData}>INICIAR JOGO</Button></Link>
         </div>
       </div>
     </div>

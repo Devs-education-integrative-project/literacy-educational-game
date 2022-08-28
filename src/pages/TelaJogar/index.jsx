@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import api from '../../assets/APIs/quiz.json';
 import ModalAcerto from '../../components/ModalAcerto';
 import ModalErro from '../../components/ModalErro';
@@ -7,16 +8,31 @@ import './index.css';
 
 
 const TelaJogar = () => {
+if(localStorage.getItem('CURRENT__QUIZ') === undefined || localStorage.getItem('CURRENT__QUIZ') === null ){
+  localStorage.setItem('CURRENT__QUIZ', 25);
+  localStorage.setItem('SCORE', 100);
+  
+}
+
   const [disableButtons, setDisableButtons] = React.useState(false);
-  const [numberQuiz, setNumberQuiz] = React.useState(25);
+  const [numberQuiz, setNumberQuiz] = React.useState(Number(localStorage.getItem('CURRENT__QUIZ')));
   const [modalAcerto, setModalAcerto] = React.useState('hiddenModalAcerto');
   const [modalErro, setModalErro] = React.useState('hiddenModalErro');
-  const [score, setScore] = React.useState(100);
+  const [score, setScore] = React.useState(Number(localStorage.getItem('SCORE')));
   const [show, setShow] = useState(false)
 
   const showComponent = () => setShow(true)
 
+  function saveGameProgress() {
+    localStorage.setItem('CURRENT__QUIZ', numberQuiz)
+    localStorage.setItem('SCORE', score)
+  }
+  saveGameProgress();
+
+
   function handleClick(e) {
+    setNumberQuiz(localStorage.getItem('CURRENT__QUIZ'))
+
     if (e.target.innerText === api[numberQuiz].answer) {
 
       e.target.classList.add('btn-green');
@@ -35,8 +51,6 @@ const TelaJogar = () => {
         nextQuestion(e);
       }, 2000);
     }
-
-
   }
 
   function nextQuestion(e) {
@@ -47,20 +61,24 @@ const TelaJogar = () => {
       setDisableButtons(false);
       setModalAcerto('hiddenModalAcerto');
       setModalErro('hiddenModalErro');
+
     }
     showComponent(true)
   }
 
+
   return (
     <div className="container">
-      <span className={modalAcerto}>
+      <span style={{zIndex:"1"}} className={modalAcerto}>
         <ModalAcerto />
       </span>
-      <span className={modalErro}>
+      <span style={{zIndex:"1"}} className={modalErro}>
         <ModalErro />
       </span>
-      {numberQuiz < 26 ?
-        <div className="jogar">
+      
+      {numberQuiz < api.length ?
+        <div className="jogar" style={{position:"relative"}}>
+          <Link to={'/'}><button  style={{position:"absolute", top:0, right:0}}>sair do jogo</button></Link>
           <h2>PONTUAÇÃO: {score}%</h2>
           <p className="pergunta">{api[numberQuiz].question}</p>
           <img
