@@ -7,6 +7,7 @@ import EndGame from '../EndGame/EndGame';
 import './quiz.css';
 
 const Quiz = () => {
+  localStorage.setItem('hiddenBtnContinue',JSON.stringify({display: "flex"}))
   if (
     localStorage.getItem('CURRENT__QUIZ') === undefined ||
     localStorage.getItem('CURRENT__QUIZ') === null
