@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link, } from 'react-router-dom'
 
-import Button from '../../components/Buttons/BtnsStartGame'
+import Button from '../../components/Button/Button'
 import './index.css'
 
 const Tutorial = () => {

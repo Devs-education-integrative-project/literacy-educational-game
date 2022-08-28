@@ -1,4 +1,4 @@
-.tela-opcao {
+/* .tela-opcao {
   width: 610px;
   height: 604px;
   display: flex;
@@ -35,4 +35,19 @@
   font-weight: 700;
   margin: 8px 3px;
   width: 443px;
+} */
+
+/* @import url(../../components/BackgroundContentGame/backgroundContentGame.css);
+.logo{
+  display: flex;
+} */
+
+/* .group-btn{
+display: flex;
+flex-direction: column;
+
 }
+.btn{
+  width: 100%;
+  margin-bottom: 0.5rem;
+} */

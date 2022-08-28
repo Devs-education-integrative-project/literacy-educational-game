@@ -1,24 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Button from '../../components/Buttons/BtnsStartGame'
-import logo from '../../assets/images/logo-qual-e-a-letra.png'
-import './home.css'
-
-
-
+import React from 'react';
+import BackgroundContent from '../../components/BackgroundContentGame/BackgroundContentGame';
+import { Link } from 'react-router-dom';
+import Button from '../../components/Button/Button';
+import './home.css';
 
 const Home = () => {
-  
   return (
-    <div className="tela-opcao">
-      <img src={logo} alt="logo" />
-
-      <div className='tela-opcao-jogo__btn'>
-        <Link className='link' to={'/inicio'}><Button>NOVO JOGO</Button></Link>
-        <Link className='link' to={'/jogar'}><Button>CONTINUAR</Button></Link>
-      </div>
-    </div>
-  )
-}
+    <BackgroundContent>
+      <Link className="link" to={'/setName'}>
+        <Button>NOVO JOGO</Button>
+      </Link>
+      <Link className="link" to={'/jogar'}>
+        <Button>CONTINUAR</Button>
+      </Link>
+    </BackgroundContent>
+  );
+};
 
 export default Home;
