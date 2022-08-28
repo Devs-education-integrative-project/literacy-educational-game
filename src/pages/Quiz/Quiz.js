@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import api from '../../assets/APIs/quiz.json';
-import ModalAcerto from '../../components/ModalAcerto';
-import ModalErro from '../../components/ModalErro';
+import ModalAcerto from '../../components/ModalRight/ModalRight';
+import ModalErro from '../../components/ModalWrong/ModalWrong';
 import EndGame from '../EndGame/EndGame';
 import './quiz.css';
 
@@ -19,8 +19,8 @@ const Quiz = () => {
   const [numberQuiz, setNumberQuiz] = React.useState(
     Number(localStorage.getItem('CURRENT__QUIZ')),
   );
-  const [modalAcerto, setModalAcerto] = React.useState('hiddenModalAcerto');
-  const [modalErro, setModalErro] = React.useState('hiddenModalErro');
+  const [modalAcerto, setModalAcerto] = React.useState('hidden-modal-right');
+  const [modalErro, setModalErro] = React.useState('hidden-modal-wrong');
   const [score, setScore] = React.useState(
     Number(localStorage.getItem('SCORE')),
   );
@@ -56,8 +56,8 @@ const Quiz = () => {
       e.target.classList.remove('btn-quiz-red');
       setNumberQuiz(numberQuiz + 1);
       setDisableButtons(false);
-      setModalAcerto('hiddenModalAcerto');
-      setModalErro('hiddenModalErro');
+      setModalAcerto('hidden-modal-right ');
+      setModalErro('hidden-modal-wrong');
     }
   }
 
