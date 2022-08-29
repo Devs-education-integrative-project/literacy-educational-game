@@ -44,9 +44,7 @@ const Home = () => {
 
   return (
     <BackgroundContent>
-      <button onClick={() => handlePlay()} className="btn">
-        NOVO JOGO
-      </button>
+      <Button click={handlePlay}>NOVO JOGO</Button>
       <Link className="link" to={'/quiz'}>
         <Button
           styleButton={JSON.parse(localStorage.getItem('hiddenBtnContinue'))}
