@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import api from '../../assets/APIs/quiz.json';
+import api from '../../assets/services/APIs/quiz.json';
 import ModalAcerto from '../../Components/ModalRight/ModalRight';
 import ModalErro from '../../Components/ModalWrong/ModalWrong';
 import EndGame from '../EndGame/EndGame';
@@ -76,6 +76,7 @@ const Quiz = () => {
           <Link to={'/'}>
             <button className="btn-exit-quiz">X</button>
           </Link>
+          <span className='quiz-remaining'>{numberQuiz+1}/{api.length}</span>
           <h2>PONTUAÇÃO: {score}%</h2>
           <p className="question-quiz">{api[numberQuiz].question}</p>
           <img
