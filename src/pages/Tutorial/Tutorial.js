@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link} from 'react-router-dom'
-import BackgroundContent from '../../components/BackgroundContentGame/BackgroundContentGame'
-import Button from '../../components/Button/Button'
+import BackgroundContent from '../../Components/BackgroundContentGame/BackgroundContentGame'
+import Button from '../../Components/Button/Button'
 import './tutorial.css'
 
 const Tutorial = () => {

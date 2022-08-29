@@ -1,13 +1,19 @@
 import React from 'react';
-import BackgroundContent from '../../components/BackgroundContentGame/BackgroundContentGame';
+import BackgroundContent from '../../Components/BackgroundContentGame/BackgroundContentGame';
 import { Link } from 'react-router-dom';
-import Button from '../../components/Button/Button';
+import Button from '../../Components/Button/Button';
 import './home.css';
 
 const Home = () => {
-    if (localStorage.getItem('SCORE') === undefined || localStorage.getItem('SCORE') === null ) {
-      localStorage.setItem('hiddenBtnContinue',JSON.stringify({display: "none"}))
-    }
+  if (
+    localStorage.getItem('SCORE') === undefined ||
+    localStorage.getItem('SCORE') === null
+  ) {
+    localStorage.setItem(
+      'hiddenBtnContinue',
+      JSON.stringify({ display: 'none' }),
+    );
+  }
 
   return (
     <BackgroundContent>
@@ -15,7 +21,11 @@ const Home = () => {
         <Button>NOVO JOGO</Button>
       </Link>
       <Link className="link" to={'/quiz'}>
-        <Button styleButton={JSON.parse( localStorage.getItem('hiddenBtnContinue'))}>CONTINUAR</Button>
+        <Button
+          styleButton={JSON.parse(localStorage.getItem('hiddenBtnContinue'))}
+        >
+          CONTINUAR
+        </Button>
       </Link>
     </BackgroundContent>
   );

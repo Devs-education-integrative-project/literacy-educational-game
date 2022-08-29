@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import api from '../../assets/APIs/quiz.json';
-import ModalAcerto from '../../components/ModalRight/ModalRight';
-import ModalErro from '../../components/ModalWrong/ModalWrong';
+import ModalAcerto from '../../Components/ModalRight/ModalRight';
+import ModalErro from '../../Components/ModalWrong/ModalWrong';
 import EndGame from '../EndGame/EndGame';
 import './quiz.css';
 

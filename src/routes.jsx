@@ -1,20 +1,19 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Tutorial from './pages/Tutorial/Tutorial';
-import Home from "./pages/Home/Home";
-import SetNamePlayer from "./pages/SetNamePlayer/SetNamePlayer";
-import Quiz from "./pages/Quiz/Quiz";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Tutorial from './Pages/Tutorial/Tutorial';
+import Home from './Pages/Home/Home';
+import SetNamePlayer from './Pages/SetNamePlayer/SetNamePlayer';
+import Quiz from './Pages/Quiz/Quiz';
 
 function MyRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/setName' element={<SetNamePlayer />} />
-        <Route path='/tutorial' element={<Tutorial />} />
-        <Route path='/quiz' element={<Quiz />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/setName" element={<SetNamePlayer />} />
+        <Route path="/tutorial" element={<Tutorial />} />
+        <Route path="/quiz" element={<Quiz />} />
       </Routes>
     </BrowserRouter>
-
-  )
+  );
 }
-export default MyRoutes
+export default MyRoutes;
