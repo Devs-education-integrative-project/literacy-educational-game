@@ -5,6 +5,7 @@ import './endGame.css'
 function EndGame({ score }) {
 
     function handleClickRestartGame(){
+        localStorage.setItem('hiddenBtnContinue',JSON.stringify({display: "none"}))
         localStorage.setItem('CURRENT__QUIZ', 0)
         localStorage.setItem('SCORE', 100)
     }
