@@ -36,15 +36,27 @@ const Home = () => {
     if (choese) {
       handleDialog('', false);
       <Link className="link" to={'/quiz'} />;
-      console.log('sim');
     } else {
       handleDialog('', false);
     }
   };
 
+  const newGame = () => {
+    if (localStorage.getItem('SCORE') === undefined ||
+        localStorage.getItem('SCORE') === null){
+          return true;
+    }
+  };
+
   return (
     <BackgroundContent>
-      <Button click={handlePlay}>NOVO JOGO</Button>
+      {newGame() ? (
+        <Link className="link" to={'/setName'}>
+          <Button>NOVO JOGO</Button>
+        </Link>
+      ):
+        <Button click={handlePlay}>NOVO JOGO</Button>
+      }
       <Link className="link" to={'/quiz'}>
         <Button
           styleButton={JSON.parse(localStorage.getItem('hiddenBtnContinue'))}
