@@ -1,15 +1,16 @@
 import React from 'react'
-import { Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import BackgroundContent from '../../Components/BackgroundContentGame/BackgroundContentGame'
 import Button from '../../Components/Button/Button'
+import videoTutorial from '../../assets/tutorial.mp4'
 import './tutorial.css'
 
 const Tutorial = () => {
 
   return (
     <BackgroundContent>
-          <iframe className='video-tutorial'  src="https://www.youtube.com/embed/0PG7Q2w-1Dc?list=PL9235CD5F91DB1DC9" title="Vídeo Educativo Infantil - Alfabetização PA PE PI PO PU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <Link className='link' to={'/quiz'}><Button  >PULAR TUTORIAL</Button></Link>
+      <video className='video-tutorial' title="Vídeo tutorial qual é a letra" width="320" height="240" controls><source src={videoTutorial} type="video/mp4" /></video>
+      <Link className='link' to={'/quiz'}><Button>PULAR TUTORIAL</Button></Link>
     </BackgroundContent>
 
   )
