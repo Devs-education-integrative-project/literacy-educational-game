@@ -12,7 +12,6 @@ const Tutorial = () => {
 
       <video className='video-tutorial' title="Vídeo tutorial qual é a letra" width="320" height="240" controls><source src={videoTutorial} type="video/mp4" /></video>
 
-      <video className='video-tutorial' title="Vídeo tutorial qual é a letra"><source src={videoTutorial} type="video/mp4" /></video>
 
       <Link className='link' to={'/quiz'}><Button>PULAR TUTORIAL</Button></Link>
     </BackgroundContent>
