@@ -1,6 +1,7 @@
 import './backgroundContentGame.css';
 import '../../assets/animations/fadeIn.css';
 import '../../assets/animations/slideInDown.css';
+import './responsividade-backgroundContentGame.css'
 
 function BackgroundContent(props){
     return(
