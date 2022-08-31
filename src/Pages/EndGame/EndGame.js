@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './endGame.css'
 
 function EndGame({ score }) {
-
+    localStorage.getItem('PlayerName') ==null && localStorage.setItem('PlayerName','');
     function handleClickRestartGame(){
         localStorage.setItem('hiddenBtnContinue',JSON.stringify({display: "none"}))
         localStorage.setItem('CURRENT__QUIZ', 0)

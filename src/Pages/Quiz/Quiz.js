@@ -5,6 +5,7 @@ import ModalAcerto from '../../Components/ModalRight/ModalRight';
 import ModalErro from '../../Components/ModalWrong/ModalWrong';
 import EndGame from '../EndGame/EndGame';
 import './quiz.css';
+import '../../assets/animations/fadeIn.css';
 
 const Quiz = () => {
   localStorage.setItem('hiddenBtnContinue',JSON.stringify({display: "flex"}))
@@ -20,8 +21,8 @@ const Quiz = () => {
   const [numberQuiz, setNumberQuiz] = React.useState(
     Number(localStorage.getItem('CURRENT__QUIZ')),
   );
-  const [modalAcerto, setModalAcerto] = React.useState('hidden-modal-right');
-  const [modalErro, setModalErro] = React.useState('hidden-modal-wrong');
+  const [modalAcerto, setModalAcerto] = React.useState('hidden-modal-right zoomIn');
+  const [modalErro, setModalErro] = React.useState('hidden-modal-wrong zoomIn');
   const [score, setScore] = React.useState(
     Number(localStorage.getItem('SCORE')),
   );
@@ -72,7 +73,7 @@ const Quiz = () => {
       </span>
 
       {numberQuiz < api.length ? (
-        <div className="background-content-quiz">
+        <div className="background-content-quiz fadeIn">
           <Link to={'/'}>
             <button className="btn-exit-quiz">X</button>
           </Link>
