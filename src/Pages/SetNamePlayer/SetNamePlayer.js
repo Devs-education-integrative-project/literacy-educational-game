@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import BackgroundContent from '../../Components/BackgroundContentGame/BackgroundContentGame';
 import Button from '../../Components/Button/Button';
 import './setNamePlayer.css';
+import './responsividade-setNamePlayer.css';
 
 const SetNamePlayer = () => {
 function handleSubmitForm(e){
