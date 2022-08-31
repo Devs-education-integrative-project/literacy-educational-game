@@ -14,6 +14,7 @@ const Home = () => {
       'hiddenBtnContinue',
       JSON.stringify({ display: 'none' }),
     );
+    localStorage.setItem('ISNEWGAME', 'true')
   }
 
   const [dialog, setDialog] = React.useState({
@@ -42,8 +43,11 @@ const Home = () => {
   };
 
   const newGame = () => {
-    if (localStorage.getItem('SCORE') === undefined ||
-        localStorage.getItem('SCORE') === null){
+    var isNewGame = localStorage.getItem('ISNEWGAME');
+
+    if (isNewGame === undefined ||
+        isNewGame === null ||
+        isNewGame === 'true'){
           return true;
     }
   };

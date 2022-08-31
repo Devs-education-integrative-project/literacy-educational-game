@@ -9,6 +9,7 @@ import '../../assets/animations/fadeIn.css';
 
 const Quiz = () => {
   localStorage.setItem('hiddenBtnContinue',JSON.stringify({display: "flex"}))
+  localStorage.setItem('ISNEWGAME', 'false')
   if (
     localStorage.getItem('CURRENT__QUIZ') === undefined ||
     localStorage.getItem('CURRENT__QUIZ') === null
