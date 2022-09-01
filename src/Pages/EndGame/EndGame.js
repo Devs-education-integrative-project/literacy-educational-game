@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './endGame.css'
+import './responsive-endGame.css'
 
 function EndGame({ score }) {
     localStorage.getItem('PlayerName') ==null && localStorage.setItem('PlayerName','');

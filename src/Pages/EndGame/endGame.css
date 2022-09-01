@@ -1,12 +1,15 @@
 @import url('../../styleGlobal.css');
 
 .container-end-game {
-  width: 100vw;
-  height: 100vh;
-
+  width: 40vw;
+  height: 80vh;
+  background-color: var(--primary-color);
+  border-radius: 10px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 40%);
 }
 .group-content-end-game {
   width: 40vw;
@@ -22,15 +25,15 @@
 .title-end-game {
   width: 90%;
 
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 
   color: var(--text-screen-color);
 }
 
 .img-trofel {
-  width: 60%;
-  height: 50%;
+  width: 50vw;
+  height: 40vh;
 
   display: flex;
   justify-content: center;
@@ -42,7 +45,7 @@
   background-size: contain;
 }
 .text-score {
-  font-size: 2.5rem;
+  font-size: 3vw;
 }
 .btn-play-again {
   all: unset;
@@ -55,7 +58,7 @@
   justify-content: space-around;
   align-items: center;
 
-  font-size: 2rem;
+  font-size: 2.1vw;
 
   padding: 1rem;
   margin-bottom: 1rem;
