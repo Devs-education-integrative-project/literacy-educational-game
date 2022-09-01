@@ -1,4 +1,5 @@
 import './modalRight.css'
+import './responsive-modalRight.css'
 import '../../assets/animations/zoomIn.css';
 
 const ModalRight = () => {

@@ -1,4 +1,5 @@
 import './modalWrong.css';
+import './responsive-modalWrong.css';
 import '../../assets/animations/zoomIn.css';
 
 const ModalErro = () => {
