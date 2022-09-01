@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1000px) {
+  .video-tutorial {
+    margin-bottom: 3rem;
+    width: 50vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .video-tutorial {
+    margin-bottom: 3rem;
+    width: 65vw;
+  }
+}

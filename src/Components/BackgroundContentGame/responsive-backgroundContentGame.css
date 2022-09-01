@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1000px) {
+  .container-content {
+    width: 60vw;
+    height: 80vh;
+}
+
+}
+@media only screen and (max-width: 600px) {
+  .container-content {
+    width: 80vw;
+    height: 80vh;
+}
+
+
+}

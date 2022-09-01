@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1000px) {
+  .input-name-player {
+    width: 50vw;
+}
+
+}
+@media only screen and (max-width: 600px) {
+  .input-name-player {
+    width: 65vw;
+    font-size: 5vw;
+
+}
+
+}

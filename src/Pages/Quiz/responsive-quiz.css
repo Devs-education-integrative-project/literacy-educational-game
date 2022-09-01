@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1000px) {
+  .background-content-quiz{
+    width: 60vw;
+    height: 80vh;
+  }
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  .background-content-quiz {
+    width: 80vw;
+    height: 80vh;
+}
+
+.image-quiz {
+  width: 70%;
+  /* height: 50%; */
+}
+
+}
+@media only screen and (max-width: 470px) {
+  .background-content-quiz {
+    width: 90vw;
+    height: 80vh;
+}
+.question-quiz{
+  width: 90%;
+  font-size: 7vw;
+}
+.image-quiz {
+  width: 80%;
+  /* height: 50%; */
+}
+.quiz-remaining{
+  font-size: 7vw;
+}
+.show-score{
+  font-size: 5vw;
+}
+
+.btn-exit-quiz {
+  width: 10vw;
+  height: 10vw;
+  font-size: 6vw;
+}
+
+}
