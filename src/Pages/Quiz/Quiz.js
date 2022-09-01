@@ -5,6 +5,7 @@ import ModalAcerto from '../../Components/ModalRight/ModalRight';
 import ModalErro from '../../Components/ModalWrong/ModalWrong';
 import EndGame from '../EndGame/EndGame';
 import './quiz.css';
+import './responsive-quiz.css';
 import '../../assets/animations/fadeIn.css';
 
 const Quiz = () => {
@@ -79,7 +80,7 @@ const Quiz = () => {
             <button className="btn-exit-quiz">X</button>
           </Link>
           <span className='quiz-remaining'>{numberQuiz+1}/{api.length}</span>
-          <h2>PONTUAÇÃO: {score}%</h2>
+          <h2 className='show-score'>PONTUAÇÃO: {score}%</h2>
           <p className="question-quiz">{api[numberQuiz].question}</p>
           <img
             className="image-quiz"

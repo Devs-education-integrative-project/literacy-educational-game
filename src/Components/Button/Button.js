@@ -1,5 +1,5 @@
 import './button.css'
-import './responsividade-button.css'
+import './responsive-button.css'
 
 const Button = ({ children, click,disableButton, styleButton}) => {
   return (
