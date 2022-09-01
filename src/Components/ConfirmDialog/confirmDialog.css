@@ -27,6 +27,7 @@
 .dialog__message {
     margin: 10px;
     font-size: medium;
+    text-align: center;
 }
 
 .dialog__btn {
