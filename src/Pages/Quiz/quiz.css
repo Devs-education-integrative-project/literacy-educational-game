@@ -1,3 +1,5 @@
+@import url("./quiz-responsivo.css");
+
 .container-quiz {
   width: 100vw;
   height: 100vh;
@@ -21,15 +23,12 @@
   box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 40%);
 }
 
-.quiz-remaining{
+.quiz-remaining {
   position: absolute;
   top: 0;
   left: 0;
-
   margin: 1rem;
-
   color: royalblue;
-
   font-size: 1.5rem;
 }
 .btn-exit-quiz {
@@ -48,7 +47,6 @@
   color: white;
   background-color: red;
   font-size: 1.5rem;
-
 }
 .question-quiz {
   width: 90%;
