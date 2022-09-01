@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import BackgroundContent from '../../Components/BackgroundContentGame/BackgroundContentGame'
 import Button from '../../Components/Button/Button'
-import videoTutorial from '../../assets/tutorial.mp4'
+import videoTutorial from '../../assets/videos/tutorial.mp4'
 import './tutorial.css'
 import './responsive-tutorial.css'
 
