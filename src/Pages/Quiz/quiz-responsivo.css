@@ -1,0 +1,32 @@
+@import url("../../styleGlobal.css");
+
+@media screen and (max-width: 414px) {
+  .background-content-quiz {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .background-content-quiz .btn-exit-quiz {
+    font-size: 12px;
+    width: 30px;
+  }
+  .background-content-quiz span,
+  h2 {
+    font-size: 15px;
+    text-align: center;
+    color: var(--button-color);
+  }
+
+  .background-content-quiz .question-quiz {
+    font-size: 13px;
+    width: 100%;
+  }
+  .background-content-quiz .image-quiz {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .background-content-quiz .btn-quiz-white {
+    font-size: 20px;
+  }
+}

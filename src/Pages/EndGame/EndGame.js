@@ -8,6 +8,7 @@ function EndGame({ score }) {
         localStorage.setItem('hiddenBtnContinue',JSON.stringify({display: "none"}))
         localStorage.setItem('CURRENT__QUIZ', 0)
         localStorage.setItem('SCORE', 100)
+        localStorage.setItem('ISNEWGAME', 'true')
     }
     return (
         <div className="container-end-game">
